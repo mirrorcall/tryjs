@@ -1,0 +1,19 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "A little puzzle game using NodeJS",
+  "main": "puzzle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server"
+  },
+  "keywords": [
+    "puzzle"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+      "http-server": "0.11.1",
+	  "require.js": "1.0.0"
+  }
+}

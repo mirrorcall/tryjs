@@ -1,0 +1,44 @@
+#top-container {
+    max-width: 328px;
+    height: 328px;
+}
+
+.square {
+    float: left;
+    min-height: 40px;
+    width: 40px;
+    border:1px solid black;
+}
+
+.hide-cell {
+    /* Next two lines collapse the border */
+    background-color: black;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.show-cell,
+.active-cell,
+.text-cell {
+    /* Next two lines collapse the border */
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.show-cell {
+    background-color: aliceblue;
+}
+
+.active-cell {
+    background-color: green;
+}
+
+.text-cell {
+    background-color: white;
+}
+
+.show-text {
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 20%;
+}
