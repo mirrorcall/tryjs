@@ -3,17 +3,20 @@
 ### Getting Started
 
 	1. Clone the git to your local directory.
+	
 	```
 		git clone
 	```
 
 	2. Change directory to /where/you/stored/this/repo and run Node Package Manager (NPM)
+	
 	```
 		cd /where/you/stored/this/repo
 		npm install
 	```
 
 	3. The below you will start a simple server which will serve all the files in the repo.
+	
 	```
 		npm start
 	```
